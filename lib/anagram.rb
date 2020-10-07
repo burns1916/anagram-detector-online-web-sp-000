@@ -18,7 +18,7 @@ attr_accessor :word
     word_array.each do |words_in_array|
     @words_in_array_split = words_in_array.split("")
     @word_array_ordered = @words_in_array_split.sort
-    if @word_split_ordered == @word_array_ordered
+    @match = @word_split_ordered == @word_array_ordered
       return @match
     else
       []
