@@ -16,8 +16,8 @@ attr_accessor :word
 
   def match(word_array)
     word_array.each do |words_in_array|
-    @words_in_array_split = words_in_array.split("")
-    @word_array_ordered = @words_in_array_split.sort
+    @word_array_organized = words_in_array.split("").sort
+    binding.pry
     if @word_split_ordered == @word_array_ordered
     @word
     else
