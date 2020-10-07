@@ -13,7 +13,7 @@ attr_accessor :word
     @word_array_organized = words_in_array.split("").sort
     end
     if @word_organized == @word_array_organized
-      @word
+      word
     else
       @no_match = []
     end
