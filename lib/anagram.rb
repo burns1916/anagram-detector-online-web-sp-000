@@ -7,8 +7,8 @@ attr_accessor :word
   def initialize(word)
     @word_split = word.split("")
     @word_split_ordered = @word_split.sort
-    if @word_split_ordered == @word_array_ordered
-      @word
+    if @match = @word_split_ordered == @word_array_ordered
+      return @match
     else
       []
     end
