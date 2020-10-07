@@ -12,6 +12,7 @@ attr_accessor :word
     word_array.each do |words_in_array|
     @word_array_organized = words_in_array.split("").sort
     @match = @word_array_organized == @word_organized
+    binding.pry
     end
     if @match == true
       @match
