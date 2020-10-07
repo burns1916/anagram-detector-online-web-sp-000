@@ -15,7 +15,7 @@ attr_accessor :word
     binding.pry
     end
     if @match == true
-      @match
+      @word
     else
       @no_match = []
     end
